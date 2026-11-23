@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Terminal keep-alive",
+    "description": "Keeps the right-sidebar terminal mounted when you switch tabs or sessions, so its shell, output stream and xterm survive and switching back no longer rebuilds the screen. Only the terminal tab type's keepMounted flag is switched on; the PTY, transport and Agent terminal tools stay the official implementation. While a terminal tab is open, its hidden screen still receives output and keeps input control, which is the cost of the retained session. Open a terminal tab, switch to Files or Browser and back: the screen, scrollback and running program stay put. Turning the bundle off restores the shipped unmount-per-switch behavior."
+  }
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: terminal-keepalive
+      name: '@local/dsh-terminal-keepalive'
