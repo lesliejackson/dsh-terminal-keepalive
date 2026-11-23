@@ -1,7 +1,7 @@
 {
   "name": "@local/dsh-terminal-keepalive",
-  "version": "1.0.0",
-  "description": "Keeps the right-sidebar terminal mounted across tab and session switches so it stops rebuilding and replaying its screen.",
+  "version": "1.0.1",
+  "description": "Keeps the right-sidebar terminal mounted across tab and session switches and pauses output from hidden terminals when they get busy.",
   "type": "module",
   "license": "MIT",
   "keywords": [
